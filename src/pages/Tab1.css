@@ -2,3 +2,16 @@
   max-height: 35vh;
   overflow: hidden;
 }
+
+img {
+  margin-top: 100px;
+  transition: all 1.5s ease;
+  object-fit: width;
+  display: block;
+  width: auto;
+  padding:10px;
+}
+
+img:hover {
+  transform: rotate(180deg);
+}

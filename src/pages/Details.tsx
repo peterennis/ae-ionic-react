@@ -4,14 +4,14 @@ import { IonBackButton, IonButtons, IonHeader, IonToolbar, IonTitle, IonContent 
 const Details: React.FunctionComponent = () => {
   return (
     <>
-        <IonHeader>
-          <IonToolbar>
-            <IonButtons slot="start">
-              <IonBackButton defaultHref="/tab2" />
-            </IonButtons>
-            <IonTitle>Detail</IonTitle>
-          </IonToolbar>
-        </IonHeader>
+      <IonHeader>
+        <IonToolbar color="primary">
+          <IonButtons slot="start">
+            <IonBackButton defaultHref="/tab2" />
+          </IonButtons>
+          <IonTitle>Detail</IonTitle>
+        </IonToolbar>
+      </IonHeader>
       <IonContent>
         <p>Details</p>
       </IonContent>

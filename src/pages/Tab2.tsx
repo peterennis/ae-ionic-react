@@ -1,14 +1,25 @@
 import React from 'react';
 import { RouteComponentProps } from 'react-router';
-import { IonContent, IonHeader, IonItem, IonLabel, IonList, IonTitle, IonToolbar } from '@ionic/react';
+import {
+  IonButtons,
+  IonContent,
+  IonHeader,
+  IonItem,
+  IonLabel,
+  IonList,
+  IonTitle,
+  IonToolbar
+} from '@ionic/react';
 
 const Tab2: React.FunctionComponent<RouteComponentProps> = ({ history }) => {
 
   return (
     <>
       <IonHeader>
-        <IonToolbar>
-          <IonTitle>Tab Two</IonTitle>
+        <IonToolbar color="primary">
+          <IonButtons slot="start">
+          </IonButtons>
+          <IonTitle>About</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
