@@ -1,9 +1,9 @@
 import React from 'react';
 import {
+  IonContent,
   IonHeader,
-  IonToolbar,
   IonTitle,
-  IonContent
+  IonToolbar,
 } from '@ionic/react';
 
 const Tab3: React.FunctionComponent = () => {
