@@ -18,7 +18,7 @@ const Tab1: React.FunctionComponent = () => {
     <>
       <IonHeader>
         <IonToolbar color="primary">
-          <IonTitle>Home</IonTitle>
+          <IonTitle>Home 4.8.0-rc.1</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
